@@ -1,0 +1,19 @@
+{
+    "name": "steyep/sa-bot",
+    "description": "Bot for notifying which Drupal projects are affected by a Drupal Security Advisory",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Stephen Pennell",
+            "email": "ste@steyep.com"
+        }
+    ],
+    "require": {
+        "php-di/php-di": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SecurityAdvisoryBot\\": "src/"
+        }
+    }
+}
