@@ -2,7 +2,7 @@
 
 last_post=${WORKSPACE}/timestamp
 projects=${WORKSPACE}/projects
-test -d $projects || mkdir -pv $project
+test -d $projects || mkdir -pv $projects
 repositories=()
 arguments=()
 # Indicates if we should only display messages we haven't seen before.
